@@ -1,0 +1,30 @@
+{
+  "name": "futurice-weather-app",
+  "version": "1.0.0",
+  "description": "web app for weather report",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --mode development",
+    "build": "webpack --mode production",
+    "format": "prettier-eslint --eslint-config-path ./.eslintrc.js --write '**/*.js'",
+    "lint": "eslint . --ext .js && echo \"Lint complete.\"",
+    "test": "jest --config ./jest.config.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Babanila/futurice-weather-app.git"
+  },
+  "keywords": [
+    "react",
+    "web",
+    "weather",
+    "test"
+  ],
+  "author": "Babajide Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Babanila/futurice-weather-app/issues"
+  },
+  "homepage": "https://github.com/Babanila/futurice-weather-app#readme"
+}
