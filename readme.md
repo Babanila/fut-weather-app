@@ -30,7 +30,7 @@ Make sure you have installed all of the following prerequisites on your developm
 
 -   Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. Make sure to get the latest active LTS version.
 
--   Download the fut-weather-app from this [link](https://github.com/babanila/fut-weather-app) or use `git clone git@github.com:babanila/fut-weather-app.git`.
+-   Download the fut-weather-app from this [link](https://github.com/Babanila/fut-weather-app) or use `git clone git@github.com:Babanila/fut-weather-app.git`.
 
 -   A web browser (`e.g. Google Chrome, Mozila, Firefox e.t.c`).
 
@@ -46,12 +46,12 @@ Make sure you have installed all of the following prerequisites on your developm
 
 ### fut-weather-app Usage
 
-To run fut-weather-app, follow the steps below.
+To use fut-weather-app, follow the steps below.
 
 ### STEPS
 
 -   After starting the app.
--   Enter the localhost address using port 8080 (`e.g http://localhost:8080`)
+-   If the App doesn't start, enter the localhost address using port 8080 (`e.g http://localhost:8080`)
 -   Type your search parameter into the input search bar in the top right corner on the page.
 -   Click the search button.
 -   Click on any of the results to view its details.

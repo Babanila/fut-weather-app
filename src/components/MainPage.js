@@ -53,8 +53,8 @@ function MainPage() {
     };
 
     // Sorting by date created
-    const handleSortByCreatedTime = async () => {
-        const newData = await weatherData.sort(sortByTime("time"));
+    const handleSortByCreatedTime = () => {
+        const newData = weatherData.sort(sortByTime("time"));
         setQueryWeatherData(newData);
     };
 
