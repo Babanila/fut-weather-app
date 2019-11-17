@@ -15,7 +15,7 @@ const Output = ({ data }) => {
                     </picture>
                     <div className="card-content">
                         <div className="content-location">
-                            <h3>{item.properties.title}</h3>
+                            <h3 data-setId="item-title">{item.properties.title}</h3>
                         </div>
                         <p className="card-section">
                             <span className="content-key">Type: </span>
