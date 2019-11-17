@@ -4,6 +4,7 @@ import LazyLoad from "react-lazyload";
 import Loading from "./Loading";
 import { timeConverter } from "./Helpers";
 import { OutputStyles } from "../styles/OutputStyles";
+import MainPage from "./MainPage";
 
 const Output = ({ data }) => {
     return data.map((item, i) => (
@@ -15,7 +16,7 @@ const Output = ({ data }) => {
                     </picture>
                     <div className="card-content">
                         <div className="content-location">
-                            <h3 data-setId="item-title">{item.properties.title}</h3>
+                            <h3 data-setid="item-title">{item.properties.title}</h3>
                         </div>
                         <p className="card-section">
                             <span className="content-key">Type: </span>
@@ -38,10 +39,8 @@ const Output = ({ data }) => {
                             <span className="content-value">{item.properties.rms} </span>
                         </p>
                         <p>
-                            <span className="content-key">Dmin: </span>
-                            <span className="content-value">
-                                {item.properties.dmin || "Not available"}
-                            </span>
+                            <span className="content-key">Mag: </span>
+                            <span className="content-value">{item.properties.mag}</span>
                         </p>
                         <p>
                             <span className="content-key">MagType: </span>

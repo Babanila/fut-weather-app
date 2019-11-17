@@ -7,12 +7,10 @@ const About = () => {
         <AboutStyles>
             <Header pageTitle="About" />
             <div className="about-div">
-                <h1> Web application for Weather </h1>
-
                 <div className="about-div-section">
                     <h3>Components </h3>
                     <li> Header: Shows the title of the current page.</li>
-                    <li>Drawer: It&apos used to navigate through the web application.</li>
+                    <li>Drawer: It&apos;s used to navigate through the web application.</li>
                     <li>Main Page: The content goes here.</li>
                 </div>
 
