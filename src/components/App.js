@@ -1,17 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import MainPage from "./MainPage";
+import WeatherDetails from "./WeatherDetails";
+import About from "./About";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
+function App() {
     return (
-      <div>
-        <h1>Weather App</h1>
-      </div>
+        <Router>
+            <Switch>
+                <Route path="/" exact component={MainPage} />
+                <Route path="/city/:id" component={WeatherDetails} />
+                <Route path="/about" exact component={About} />
+            </Switch>
+        </Router>
     );
-  }
 }
 
 export default App;
